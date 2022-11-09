@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{ 
+background-color:#D9E3E6 ;    
+}
+
+
+h1{ 
+font-family:'Franklin Gothic Medium';
+font-size: 40px;
+text-align: center;
+font-weight: bold;
+}
+
+
+h3{
+font-family:'Franklin Gothic Medium';
+font-size: 20px;
+text-align: center;
+}
+
+.Equipement-laudie{ 
+padding-top: 25px;
+display: flex;
+padding-left: 150px;
+flex-wrap: wrap;
+gap: 50px;
+}
+
+
+.Chimique{ 
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+gap: 450px;
+padding-left: 525px;
+padding-top: 20px;
+}
+
+a{
+color: white;
+font-family:'Franklin Gothic Medium';
+text-decoration: none;
+
+}
+
+
+.view {
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    box-shadow: 1px 1px 2px #e6e6e6;
+    cursor: default;
+}
+.view .mask, .view .content {
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    overflow: hidden;
+    top: 0;
+    left: 0
+}
+.view embed {
+    display: block;
+    position: relative
+}
+.view h2 {
+    text-transform: uppercase;
+    text-align: center;
+    position: relative;
+    font-size: 17px;
+    padding: 10px;
+    margin: 20px 0 0 0
+}
+.view p {
+    background-color:#1E5977;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.view p:hover{
+    background-color: #96BAC8;
+    color: white;
+
+
+
+}
+
+.view a.info {
+    display: inline-block;
+    text-decoration: none;
+    padding: 7px 14px;
+    text-transform: uppercase;
+    box-shadow: 0 0 1px #000
+}
+.view embed:hover {
+    box-shadow: 0 0 5px #ed7f4e
+}
+
